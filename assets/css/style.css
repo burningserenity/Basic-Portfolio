@@ -1,0 +1,25 @@
+body
+{
+  background-image:
+  url(./assets/images/background.png);
+  background-repeat: repeat;
+}
+
+h1
+{
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+font
+{
+  font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  background-color: #ffffff;
+}
+
+.main_header
+{
+  background-color: #ffffff;
+  border-color: #cccccc;
+  color: #4aaaa5;
+}
