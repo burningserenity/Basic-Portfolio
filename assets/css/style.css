@@ -23,3 +23,8 @@ font
   border-color: #cccccc;
   color: #4aaaa5;
 }
+
+.my_face
+{
+  float: left;
+}
