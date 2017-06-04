@@ -5,12 +5,12 @@ body
   background-repeat: repeat;
 }
 
-h1
+h2
 {
   font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
 
-font
+p
 {
   font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
   color: #777777;
@@ -24,7 +24,18 @@ font
   color: #4aaaa5;
 }
 
-.my_face
+#my_face
 {
   float: left;
+}
+
+#name
+{
+  background-color: #4aaaa5;
+  color: white;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  width: 245px;
+  height: 60px;
+  text-align: center;
+  line-height: 55px;
 }
