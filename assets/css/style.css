@@ -1,7 +1,6 @@
 body
 {
-  background-image:
-  url(./assets/images/background.png);
+  background-image: url("../images/background.png");
   background-repeat: repeat;
 }
 
@@ -22,6 +21,9 @@ p
   background-color: #ffffff;
   border-color: #cccccc;
   color: #4aaaa5;
+  top: 0;
+  position: absolute;
+  width: 100%;
 }
 
 #my_face
