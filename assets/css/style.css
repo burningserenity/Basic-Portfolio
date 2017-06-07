@@ -161,11 +161,23 @@ p
   padding: 0 0 0 0;
 }
 
+#github:hover
+{
+  width: 55px;
+  height: 55px;
+}
+
 #linkedin
 {
   width: 50px;
   height: 50px;
   padding: 0 1px 0 0;
+}
+
+#linkedin:hover
+{
+  width: 55px;
+  height: 55px;
 }
 
 #stackoverflow
@@ -175,10 +187,108 @@ p
   padding: 0 0 0 1px;
 }
 
-.toplinks
+#stackoverflow:hover
+{
+  width: 55px;
+  height: 55px;
+}
+
+nav
 {
   position: relative;
-  text-decoration: none;
+  left: 990px;
   color: gainsboro;
+  background-color: white;
+  text-decoration: none;
+  padding-top: 30px;
+}
+
+.toplink:link
+{
+  text-decoration: none;
+  color: gray;
   background-color: inherit;
+}
+
+.toplink:visited
+{
+  text-decoration: none;
+  color: gray;
+  background-color: inherit;
+}
+
+.toplink:hover
+{
+  text-decoration: underline;
+  color: black;
+  background-color: inherit;
+}
+
+.toplink:active
+{
+  text-decoration: none;
+  color: black;
+  background-color: inherit;
+}
+
+footer
+{
+  position: fixed;
+  background-color: darkslategray;
+  color: white;
+  top: 95%;
+  width: 100%;
+  min-width: 1230px;
+  line-height: 35px;
+  height: 45px;
+  text-align: center;
+  z-index: 3;
+}
+
+#contact
+{
+  background-color: white;
+  color: #4aaaa5;
+  text-indent: 15px;
+  height: 37px;
+  line-height: 100px;
+  margin-top: 0;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 26px;
+}
+
+form
+{
+  margin: 15px 5px 10px 15px;
+  font: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  color: #777777;
+  background-color: white;
+}
+
+#submission
+{
+  background-color: #4aaaa5;
+  color: white;
+  text-align: center;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 18px;
+}
+
+#social_media_contact
+{
+  clear: both;
+  background-color: white;
+  float: right;
+  border-style: ridge;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 0 15px 15px 15px;
+  position: relative;
+  left: 250px;
+  top: -529px;
+  color: #4aaaa5;
+  font-size: 24px;
+  line-height: 70px;
 }
