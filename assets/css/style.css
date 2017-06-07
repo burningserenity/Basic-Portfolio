@@ -292,3 +292,53 @@ form
   font-size: 24px;
   line-height: 70px;
 }
+
+#portfolio
+{
+  background-color: white;
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 26px;
+  text-indent: 15px;
+  height: 37px;
+  line-height: 100px;
+  margin-top: 0;
+}
+
+#soon
+{
+  margin: 10px 10px 20px 20px;
+  width: 600px;
+  height: 300px;
+}
+
+#coming
+{
+  background-color: #4aaaa5;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  z-index: 1;
+  width: 650px;
+  position: absolute;
+  top: 83%;
+  height: 36px;
+  line-height: 32px;
+}
+
+#social_media_portfolio
+{
+  clear: both;
+  background-color: white;
+  float: right;
+  border-style: ridge;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 0 15px 15px 15px;
+  position: relative;
+  left: 250px;
+  top: -429px;
+  color: #4aaaa5;
+  font-size: 24px;
+  line-height: 70px;
+}
