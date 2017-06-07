@@ -2,8 +2,13 @@ body
 {
   background-image: url("../images/background.png");
   background-repeat: repeat;
-  margin: 0;
   padding: 0;
+  margin: 0;
+}
+
+.container
+{
+  width: 1230px;
 }
 
 h2
@@ -27,14 +32,16 @@ p
   position: relative;
   width: 100%;
   height: 80px;
-  margin: 0;
+  margin: 0 0 40px 0;
   padding: 0;
+  border-width: medium;
+  min-width: 1230px;
 }
 
 #my_face
 {
   float: left;
-  margin: 10px 15px 5px 0;
+  margin: 9px 15px 5px 0;
   height: 150px;
 }
 
@@ -44,10 +51,12 @@ p
   background-color: #4aaaa5;
   color: white;
   font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 30px;
+  font-weight: 600;
   width: 245px;
   height: 70px;
   text-align: center;
-  line-height: 65px;
+  line-height: 85px;
   margin-left: 270px;
   margin-top: 10px;
 }
@@ -60,6 +69,9 @@ p
   right: 510px;
   width: 650px;
   position: relative;
+  border-style: ridge;
+  border-color: lightgray;
+  border-width: thin;
 }
 
 #about
@@ -67,8 +79,11 @@ p
   background-color: white;
   color: #4aaaa5;
   text-indent: 15px;
-  height: 7px;
-  line-height: 120px;
+  height: 37px;
+  line-height: 100px;
+  margin-top: 0;
+  font-family: 'Georgia', Times, 'Times New Roman', serif;
+  font-size: 26px;
 }
 
 .underline
@@ -80,14 +95,90 @@ p
   font-size: 48px;
   margin-left: 15px;
   margin-right: 15px;
-  margin-bottom: 0;
+  margin-bottom: 10px;
+}
+
+#connectline
+{
+  font-weight: 600;
+  font-size: 28px;
+  text-align: left;
+  position: absolute;
+  left: 0px;
+  top: 35px;
+  background-color: transparent;
+  color: gainsboro;
 }
 
 #bio
 {
   position: relative;
   z-index: 1;
-  margin: 0 15px 0 15px;
-  padding-bottom: 15px;
+  margin: 0 15px 5px 15px;
   line-height: 30px;
+}
+
+#social_media
+{
+  clear: both;
+  background-color: white;
+  float: right;
+  border-style: ridge;
+  border-color: lightgray;
+  border-width: thin;
+  padding: 0 15px 15px 15px;
+  position: relative;
+  left: 250px;
+  top: -491px;
+  color: #4aaaa5;
+  font-size: 24px;
+  line-height: 70px;
+}
+
+#connect
+{
+  line-height: 105px;
+  text-align: left;
+  height: 35px;
+}
+
+#buttons
+{
+  line-height: 140px;
+  position: relative;
+  top: 50px;
+}
+
+.imagelink
+{
+  text-decoration: none;
+}
+
+#github
+{
+  width: 50px;
+  height: 50px;
+  padding: 0 0 0 0;
+}
+
+#linkedin
+{
+  width: 50px;
+  height: 50px;
+  padding: 0 1px 0 0;
+}
+
+#stackoverflow
+{
+  width: 50px;
+  height: 50px;
+  padding: 0 0 0 1px;
+}
+
+.toplinks
+{
+  position: relative;
+  text-decoration: none;
+  color: gainsboro;
+  background-color: inherit;
 }
